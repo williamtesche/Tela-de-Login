@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cadastro.css" media="screen" />
+    <title>Document</title>
+</head>
+<body>
+    <h2>Cadastre-se</h2>
+        <p>
+          <input type="text" placeholder="Nome" id="signup-firstname" />
+        </p>
+        <p>
+          <input type="text" placeholder="Sobrenome" id="signup-lastname" />
+        </p>
+        <p>
+          <input type="text" placeholder="E-mail" id="signup-email" />
+        </p>
+        <p>
+          <input type="password" placeholder="Senha" id="signup-password" />
+        </p>
+        <p>
+          <input type="password" placeholder="Confirma a senha" id="confirm-password" />
+        </p>
+        <br>
+        <h4>Mostrar senha</h4><input type="checkbox" id="toggle-password" onclick="togglePasswordVisibility()"> 
+        <p>
+          <button onclick="storeSignupPassword()">Cadastrar</button>
+        </p>
+      </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
