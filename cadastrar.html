@@ -8,7 +8,9 @@
     <title>Document</title>
 </head>
 <body>
+  <div class="container">
     <h2>Cadastre-se</h2>
+    <form class="signup-form">
         <p>
           <input type="text" placeholder="Nome" id="signup-firstname" />
         </p>
@@ -27,10 +29,10 @@
         <br>
         <h4>Mostrar senha</h4><input type="checkbox" id="toggle-password" onclick="togglePasswordVisibility()"> 
         <p>
-          <button onclick="storeSignupPassword()">Cadastrar</button>
+          <button type="button" onclick="storeSignupPassword()">Cadastrar</button>
         </p>
-      </div>
-    </div>
-        <script src="script.js"></script>
+    </form>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
